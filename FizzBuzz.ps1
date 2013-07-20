@@ -1,4 +1,4 @@
-function Get-Translation($value)
+Function Get-Translation($value)
 {
     if ($value % 15 -eq 0) {
          return "FizzBuzz"
